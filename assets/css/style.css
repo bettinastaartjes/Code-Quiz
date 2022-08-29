@@ -23,10 +23,41 @@ p {
 /*This styles the start quiz button*/
 #startTime {
     background-color: rgb(230, 0, 255);
-    margin-left: 33%;
+    margin-left: 25%;
     padding: 15px 32px;
     font-size: 20px;
     color: white;
+}
+
+.startTime {
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: 10px 15px;
+    background: var(--primary);
+    font-size: 2.2rem;
+    border-radius: 12px;
+    position: relative;
+    top: -3px;
+    box-shadow: 0 3px var(--grey);
+  }
+  
+  .startTime:hover {
+    box-shadow: 0 2px var(--grey);
+    top: -2px;
+  }
+  .startTime:active {
+    box-shadow: 0 0px var(--grey);
+    top: 0;
+  }
+  
+  .edit-startTime,
+  .delete-startTime {
+    font-size: 1.4rem;
+    padding: 5px 7px;
+    margin: 3px;
+    background: var(--secondary);
+    color: #fff;
 }
 /*This ceneters the text inside the coding quiz box*/
 #questionsDiv {
@@ -37,3 +68,34 @@ p {
 button {
     border-radius: 1550px;
 }
+
+/*
+.btn {
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: 10px 15px;
+    background: var(--primary);
+    font-size: 2.2rem;
+    border-radius: 12px;
+    position: relative;
+    top: -3px;
+    box-shadow: 0 3px var(--grey);
+  }
+  
+  .btn:hover {
+    box-shadow: 0 2px var(--grey);
+    top: -2px;
+  }
+  .btn:active {
+    box-shadow: 0 0px var(--grey);
+    top: 0;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    font-size: 1.4rem;
+    padding: 5px 7px;
+    margin: 3px;
+    background: var(--secondary);
+    color: #fff;

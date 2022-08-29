@@ -13,25 +13,27 @@
 </head>
 
 <body>
-    <!--This is the link to the high scores-->
-    <a href="highscores.html">View High Scores</a>
-    <!--This is a DIV wrapper-->
+    <!--First we need the link to the highscores html-->
+    <a href="highscores.html">View Highscores</a>
+    <!--This is the wrapper where the coding quiz goes-->
     <div id="wrapper">
-        <!--DIV FOR TIMER-->
-        <DIV ID="current time"</div>
-        <!--DIV FOR QUIZ CONTENT-->
+        <!--Div for the timer-->
+        <div id="currentTime"</div>
+        <!--Div for the quiz content-->
         <div id="questionsDiv">
-            <h1>Coding Quiz!</h1>
-            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score and time by ten seconds!</p>
-        <ul id = "choicesUl"</ul>
-        <!--BUTTONS-->
-        <button id="startTime">Start Quiz!</button>
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <!--This is the list of choices-->
+            <ul id="choicesUl"></ul>
+            <br>
+            <!--BUTTON-->
+            <button id="startTime" class="startTime">Start the Quiz</button>
+        </div>
     </div>
-
-</div>
 
 <!--Link to JAVA-->
 <script src="questions.js"></script>
+
 
 </body>
 
