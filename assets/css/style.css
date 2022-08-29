@@ -1,6 +1,77 @@
 
+*{
+    box-sizing: border-box;
+}
 
-/*This styles the box the coding quiz is contained in*/
+body {
+    background-color: rgb(255, 213, 253);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100,100,100, 0.1);
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1 rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: pink;
+    color: red;
+    border: none;
+    position: relatve;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+button:focus {
+    outline: none;
+    background-color: green;
+}
+
+
+
+/*
+This styles the box the coding quiz is contained in
 #wrapper {
     position: absolute;
     left: 30%;
@@ -10,17 +81,17 @@
     border: 1px solid purple;
 }
 
-/*This aligns the Coding Quiz! header inside the box*/
+/*This aligns the Coding Quiz! header inside the box
 h1 {
     text-align: center;
 }
 
-/*This aligns the paragaph text inside the coding quix box*/
+/*This aligns the paragaph text inside the coding quix box
 p {
     text-align: center;
 }
 
-/*This styles the start quiz button*/
+/*This styles the start quiz button
 #startTime {
     background-color: rgb(230, 0, 255);
     margin-left: 25%;
@@ -59,12 +130,12 @@ p {
     background: var(--secondary);
     color: #fff;
 }
-/*This ceneters the text inside the coding quiz box*/
+/*This ceneters the text inside the coding quiz box
 #questionsDiv {
     margin: 20px;
 }
 
-/*Changes the radius size of the start quiz button*/
+/*Changes the radius size of the start quiz button*
 button {
     border-radius: 1550px;
 }

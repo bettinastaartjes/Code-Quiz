@@ -1,12 +1,19 @@
+
+
+
+
+
 //Declared variables
 var questionIndex = 0;
 
 //Start working Code
 //Declared variables
-var timer = document.querySelector ("#startTime");
+var currentTime = document.querySelector("#currentTime");
+var timer = document.querySelector("#startTime");
 
-//Variables for seconds in timer/rules
+//Variables for seconds in timer/rules -- what does this mean
 var secondsLeft = 76;
+// Holds interval time -- what does this mean
 var holdInterval = 0;
 
 timer.addEventListener("click", function () {
@@ -46,3 +53,16 @@ function render(questionIndex) {
         listItem.addEventListener("click", (compare));
     })
 }
+
+//This makes the button count down but on the home page....
+var startTime = 15;
+var interval = setInterval(function(){
+  document.getElementById('startTime').innerHTML=startTime;
+  startTime--;
+  if (startTime === 0){
+    clearInterval(interval);
+    document.getElementById('startTime').innerHTML='Done';
+    // or...
+    alert("You're out of time!");
+  }
+}, 1000);
