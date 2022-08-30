@@ -14,13 +14,11 @@
 </head>
 
 <body>
-    
     <div class = "quiz-container" id = "quiz">
         <div class="quiz-header">
             <a href = "highscores.html">View High Scores</a>
-            <div class = "countdown" id = "countdown">
-                <p id = "countdown">1 Minute</p>
-            </div>
+            <p id = "timer">Time Left:</p>
+            <br></br>
             <h2 id = "question"> Question Text</h2>
             <ul>
                 <li>
@@ -48,6 +46,16 @@
 
         <button id="submit">Submit!</button>
     </div>
+
+<!--FOR ENTERING YOUR INITIALS AT THE END-->
+    <form id = "task-form">
+        <div class="form-group">
+        <input type="text" name="initials" placeholder="Enter Your Initials" />
+      </div>
+      <div class="form group">
+        <button class="btn" id="save-task" type="submit">Submit High Score</button>
+      </div>
+    </form>
 
 <!--
 <body>

@@ -15,15 +15,15 @@ body {
 }
 
 p {
-    background-color: purple;
-    color: white;
-    display: inline-flex;
-    font-size: 25px;
+    background-color: transparent;
+    color: rgb(255, 91, 208);
+    display: inline;
+    font-size: 15px;
     height: 70px;
     width: 100px;
     align-items: right;
     justify-content: right;
-    margin: 50;
+    margin: 100px;
 }
 .quiz-container {
     background-color: white;
@@ -33,16 +33,23 @@ p {
     overflow: hidden;
 }
 
-.quiz-countdown {
-    color: black;
-}
-
 .quiz-header {
     padding: 4rem;
 }
 
+h1 {
+    padding: 1 rem;
+    text-align: center;
+    margin: 0;
+}
+
 h2 {
     padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
     text-align: center;
     margin: 0;
 }
@@ -83,7 +90,31 @@ button:focus {
     background-color: green;
 }
 
+.form-group {
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+}
 
+form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  form input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 2.2rem;
+    border: 2px solid var(--grey);
+    border-radius: 12px;
+  }
+  
+  form .form-group {
+    margin: 0;
+    flex: 1;
+  }
 
 /*
 This styles the box the coding quiz is contained in
