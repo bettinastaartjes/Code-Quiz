@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(255, 213, 253);
+    background-color: rgb(211, 211, 211);
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
     align-items: center;
@@ -27,11 +27,10 @@ p {
 }
 
 #display-correct {
-    color: blue;
-    display: inline;
-    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 1rem;
 }
 
 .quiz-container {
@@ -58,11 +57,6 @@ h2 {
     margin: 0;
 }
 
-h3 {
-    text-align: center;
-    margin: 0;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -78,8 +72,8 @@ ul li label {
 }
 
 button {
-    background-color: pink;
-    color: red;
+    background-color: rgb(255, 107, 196);
+    color: rgb(255, 255, 255);
     border: none;
     position: relatve;
     display: inline-block;
@@ -91,17 +85,12 @@ button {
 }
 
 button:hover {
-    background-color: darkblue;
+    background-color: rgb(255, 185, 227);
 }
 
 button:focus {
     outline: none;
-    background-color: green;
-}
-
-.form-group {
-    background-color:rgb(255, 255, 255);
-    width: 100%;
+    background-color: rgb(255, 185, 227);
 }
 
 form {
@@ -125,103 +114,10 @@ form {
     flex: 1;
   }
 
-/*
-This styles the box the coding quiz is contained in
-#wrapper {
-    position: absolute;
-    left: 30%;
-    top: 20%;
-    width: 500px;
-    height: 500px;
-    border: 1px solid purple;
-}
-
-/*This aligns the Coding Quiz! header inside the box
-h1 {
+  input::placeholder {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-}
-
-/*This aligns the paragaph text inside the coding quix box
-p {
-    text-align: center;
-}
-
-/*This styles the start quiz button
-#startTime {
-    background-color: rgb(230, 0, 255);
-    margin-left: 25%;
-    padding: 15px 32px;
-    font-size: 20px;
-    color: white;
-}
-
-.startTime {
-    outline: none;
-    border: none;
-    display: inline-block;
-    padding: 10px 15px;
-    background: var(--primary);
-    font-size: 2.2rem;
-    border-radius: 12px;
-    position: relative;
-    top: -3px;
-    box-shadow: 0 3px var(--grey);
   }
-  
-  .startTime:hover {
-    box-shadow: 0 2px var(--grey);
-    top: -2px;
-  }
-  .startTime:active {
-    box-shadow: 0 0px var(--grey);
-    top: 0;
-  }
-  
-  .edit-startTime,
-  .delete-startTime {
-    font-size: 1.4rem;
-    padding: 5px 7px;
-    margin: 3px;
-    background: var(--secondary);
-    color: #fff;
-}
-/*This ceneters the text inside the coding quiz box
-#questionsDiv {
-    margin: 20px;
-}
-
-/*Changes the radius size of the start quiz button*
-button {
-    border-radius: 1550px;
-}
-
-/*
-.btn {
-    outline: none;
-    border: none;
-    display: inline-block;
-    padding: 10px 15px;
-    background: var(--primary);
-    font-size: 2.2rem;
-    border-radius: 12px;
-    position: relative;
-    top: -3px;
-    box-shadow: 0 3px var(--grey);
-  }
-  
-  .btn:hover {
-    box-shadow: 0 2px var(--grey);
-    top: -2px;
-  }
-  .btn:active {
-    box-shadow: 0 0px var(--grey);
-    top: 0;
-  }
-  
-  .edit-btn,
-  .delete-btn {
-    font-size: 1.4rem;
-    padding: 5px 7px;
-    margin: 3px;
-    background: var(--secondary);
-    color: #fff;

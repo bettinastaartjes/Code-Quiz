@@ -22,6 +22,5 @@ THEN I can save my initials and score
 I was able to figure out how to set up the quiz questions, submit button, reload the quiz.
 Need help figuring out the following...
     - Setting up the initial home quiz box (before the questions load)
-    - How to reload the timer for each question
     - Telling the user whether the question was wrong and then time subtracting from the clock
     - Saving initials and score (high scores html page)

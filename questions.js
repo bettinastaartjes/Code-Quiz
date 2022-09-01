@@ -130,7 +130,6 @@ submitBtn.addEventListener('click', () => {
         quiz.innerHTML = `
         <br><h1> All Done! </h1></br>
         <h2> You answered ${score}/${quizData.length} questions correctly</h2>
-        <h3> Enter your initials:</h3>
         <!--FOR ENTERING YOUR INITIALS AT THE END-->
             <form id = "task-form">
                 <div class="form-group">
@@ -140,6 +139,7 @@ submitBtn.addEventListener('click', () => {
                 <button class="btn" id="submit-initials" type="submit">Submit High Score</button>
                 </div>
             </form>
+            <br></br>
         <button onclick = "location.href='highscores.html';">View Highscores</button>
         <button onclick = "location.reload();">Reload</button>
         `
