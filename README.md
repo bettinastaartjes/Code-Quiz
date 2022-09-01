@@ -18,7 +18,7 @@ When you answer a question, a correct/incorrect prompt appears below. If it's in
 At the end of the quiz, you can enter your initials, view high scores, and reload the quiz.
 <img width="887" alt="home" src= "https://github.com/bettinastaartjes/Code-Quiz/blob/main/assets/images/all-done.png">
 
-# TUTORING HELP
+# Tutoring Help
 I was able to figure out how to set up the quiz questions,  submit button, reload the quiz.
 Need help figuring out the following...
     - Setting up the initial home quiz box (before the questions load)
