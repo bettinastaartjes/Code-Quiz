@@ -4,8 +4,8 @@ This assignment required the creation of a timed quiz using Javascript funamdent
 # Links to Assignment
 Find the deployment links below:
 
-Github Repo: https://github.com/bettinastaartjes/Coding-Quiz (Links to an external site.)
-Deployed Link: https://bettinastaartjes.github.io/Coding-Quiz (Links to an external site.)
+Github Repo: https://github.com/bettinastaartjes/Code-Quiz.git (Links to an external site.)
+Deployed Link: https://bettinastaartjes.github.io/Code-Quiz (Links to an external site.)
 
 # Assignment Summary
 
